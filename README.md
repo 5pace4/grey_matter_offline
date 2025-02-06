@@ -1,4 +1,4 @@
-🧠 # Grey Matter - Researcher & Journal Finder
+# 🧠 Grey Matter - Researcher & Journal Finder
 
 This repository contains the code corresponding to a collaborative project for Hackathon run by the HackCSB team in partnership with Coding Shikhbe Bangladesh, Bangladesh's fastest-growing AI-powered EdTech Platform [**HackCSB**](https://hackcsb.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio).  
 You can visit the corresponding website from this link: [**Grey Matter**](https://grey-matter-omega.vercel.app/).  
@@ -129,7 +129,7 @@ Ensure you have:
 
 ### **Cloning the Repository**
 ```bash
-git clone https://github.com/pr0ximaCent/Grey-Matter.git
+git clone https://github.com/5pace4/grey_matter_offline
 cd Grey-Matter
 ```
 
