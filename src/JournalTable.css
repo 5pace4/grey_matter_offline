@@ -1,0 +1,103 @@
+.table-container {
+  width: 100%;
+  margin: 20px auto;
+  overflow-x: auto;
+  background-color: #90a3cc;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #98b0d3;
+  background-color: #4378ec;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.8;
+  border-right: 1px solid #d2e3f9;
+  font-weight: bold;
+  transition: border-color 0.3s ease;
+}
+
+.thead {
+  background-color: #BFDBFE;
+  color: #ffffff;
+  border-bottom: 1px solid #98b0d3;
+}
+
+.thead th {
+  font-size: 1.0rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  padding: 15.27px;
+  border-right: 1px solid #b8b7b7;
+  border-bottom: 1px solid #98b0d3;
+}
+
+.thead th:first-child {
+  border-left: none;
+}
+
+.thead th:last-child {
+  border-right: none;
+}
+
+.tbody .even-row, .tbody .odd-row {
+  background-color: #F8F8F8;
+  transition: background-color 0.3s ease;
+}
+
+.tbody tr:hover {
+  background-color: #e5eaf3;
+}
+
+.tbody tr:hover td {
+  padding: 12px 15px;
+}
+
+.tbody tr td {
+  border-bottom: 1px solid #b6d6e2;
+  position: relative;
+}
+
+.tbody tr:hover td {
+  border-color: rgba(210, 227, 249, .45);
+}
+
+.tbody tr td:hover::after {
+  content: "Click to see details";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #111827;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tbody td {
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+.tbody tr {
+  transition: background-color 0.3s ease;
+}

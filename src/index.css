@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-sora: 'Sora', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+  --font-grotesk: 'Space Grotesk', sans-serif;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+    opacity: 1; 
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    top: 75%; 
+    opacity: 0.7; 
+  }
+  100% {
+    top: 110%; 
+    opacity: 0; 
+  }
+}
+
+
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    font-family: 'Sora', sans-serif;
+  
+    background: linear-gradient(180deg,
+        #101728 0%,
+        #39226d 30%,
+        rgb(21, 10, 45) 70%,
+        #1D232A 100%);
+    
+    color: #d6cb65;
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+
+
+
+
+
+
+.floating-flask {
+  animation: float 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
